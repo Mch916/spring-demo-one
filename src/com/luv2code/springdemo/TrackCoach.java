@@ -25,4 +25,13 @@ public class TrackCoach implements Coach {
 		return "Just do it" + fortuneService.getFortune();
 	}
 
+	public void doMyStartupStuff() {
+		System.out.println("TrackCoach: inside method doMyStartupStuff");
+	}
+	
+	public void doMyCleanupStuff() {
+		System.out.println("TrackCoach: inside method doMyCleanupStuff");
+	}
+	
+	
 }
